@@ -5,18 +5,18 @@ import Button from '../Button/Button';
 const HeroSection = () => {
     return (
         <>
-            <div style={{ width: '100%', height: '100vh', background: '' }}
-                className='bg-gradient-to-r from-purple-600 to-indigo-800 flex justify-around items-center'
+            <div style={{ width: '100%', height: '100vh' }}
+                className='bg-gradient-to-r from-purple-600 to-indigo-800 items-center lg:flex lg:justify-around sm:block'
             >
-                <div className='w-1/2 px-20  '>
-                    <h1 className='h1 lg:text-5xl sm:text-3xl font-black xs:text-base text-white my-4'>Beautiful Vibrant & <br></br>Modern Design</h1>
-                    <p className='text-gray-100'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates accusantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, deleniti.  </p>
+                <div className='lg:w-1/2 sm:w-full px-20 pt-28 '>
+                    <h1 className='h1 lg:text-5xl sm:text-[44px] font-black xs:text-base text-white my-4'>Beautiful Vibrant & <br></br>Modern Design</h1>
+                    <p className='text-gray-100 sm:text-[19px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates accusantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, deleniti.  </p>
 
                     <Button btnText={'LEARN MORE'} className='mt-8' />
 
                 </div>
 
-                <div className='w-1/2 h-full '>
+                <div className='lg:w-1/2 sm:w-full h-full sm:ps-20 lg:pt-20 sm:pt-4 '>
                     <img src={SliderImg} className='w-[80%] mt-20' />
                 </div>
 

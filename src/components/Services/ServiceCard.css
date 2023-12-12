@@ -1,0 +1,12 @@
+#card {
+    background: #fff;
+    color: black;
+}
+
+#card:hover {
+    color: #fff;
+    background: linear-gradient(to right, #8a3eafab, #552cc1a6), url('./../../assets/cardBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
