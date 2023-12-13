@@ -1,0 +1,11 @@
+#client {
+    background: linear-gradient(to right, #8a3eafab, #552cc1a6), url('./../../assets/clientBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: #fff;
+
+
+
+    /* background-color: red; */
+}

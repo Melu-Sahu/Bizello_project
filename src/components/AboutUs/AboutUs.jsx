@@ -16,16 +16,16 @@ const AboutUs = () => {
 
                 <h2 className='my-5 lg:text-2xl  sm:text-sm'>We're Bulding Modern and High Software For Your Startup Business</h2>
 
-                <AboutDescriptions className='' titleText={'Unique UX/UI Design'} icon = "rocket"
-                 descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
+                <AboutDescriptions className='' titleText={'Unique UX/UI Design'} icon="rocket"
+                    descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
 
-                <AboutDescriptions className='' titleText={'Theme Development'} icon = "theme"
-                 descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
+                <AboutDescriptions className='' titleText={'Theme Development'} icon="theme"
+                    descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
 
-                <AboutDescriptions className='' titleText={'Digital Marketing'} icon = "add"
-                 descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
+                <AboutDescriptions className='' titleText={'Digital Marketing'} icon="add"
+                    descriptionText={'Lorem ipsum dolor Ea consequatur, omnis vitae cupiditate nihil dolorum? For Your Startup'} />
 
-                 <Button btnText={'Get Started'} className='my-5 ' />
+                <Button btnText={'Get Started'} className='my-5 ' />
 
             </div>
 
