@@ -62,7 +62,7 @@ const ClientSection = () => {
                 <Slider {...settings} className='mx-4'>
                     {
                         data.map((client) => (
-                            <Testimonial name={client.name} website={client.website} review={client.review} />
+                            <Testimonial key={client.name} name={client.name} website={client.website} review={client.review} />
                         ))
                     }
                 </Slider>

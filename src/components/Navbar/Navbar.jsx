@@ -7,7 +7,6 @@ const Navbar = () => {
 
   const scrollEvent = () => {
     if (window.scrollY >= 125) {
-      console.log('Scrolled.', window.scrollY);
       setIsScrolled(true);
     } else {
       setIsScrolled(false);

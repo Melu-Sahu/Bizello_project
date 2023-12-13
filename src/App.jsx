@@ -6,6 +6,8 @@ import Work from './components/HowWorks/Work';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/Services/Services';
 import PricingSection from './components/Pricing/PricingSection';
+import FAQ from './components/FAQSection/FAQ';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
       <Achievements />
       <ClientSection />
       <PricingSection />
+      <FAQ />
+      <Contact />
+
 
 
     </div>

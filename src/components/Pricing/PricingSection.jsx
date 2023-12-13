@@ -20,14 +20,14 @@ const PricingSection = () => {
   ];
 
   return (
-    <div className='mt-8'>
+    <div className='mt-8' id='price'>
       <h1 className='text-center font-mono text-lg text-violet-400'>GET A QUOTE</h1>
       <h1 className='text-gray-700 text-center mt-5 font-black lg:text-5xl sm:text-xl'>Our Pricing Plan</h1>
 
-      <div className='lg:flex sm:block w-full mx-5 bg-transparent px-5 mt-5'>
+      <div className='lg:flex justify-center items-center sm:block w-full mx-5 bg-transparent px-5 mt-5'>
         {
           priceData.map((data)=>(
-            <PriceCard price={data.price} plan={data.plan} benifits={data.benifits} />
+            <PriceCard key={data.plan} price={data.price} plan={data.plan} benifits={data.benifits} />
           ))
         }
       </div>
