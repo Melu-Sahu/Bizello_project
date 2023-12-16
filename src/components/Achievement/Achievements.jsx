@@ -7,7 +7,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 const Achievements = () => {
     return (
-        <div className='w-full lg:flex sm:block justify-center items-center bg-gray-200 lg:h-80'>
+        <div className='w-full lg:flex sm:block justify-center items-center bg-gray-200 lg:h-80 py-3'>
 
             <AchievementCard Icon={<AiOutlineFundProjectionScreen className='text-white text-4xl' />} numbers={2500} title={'Project'} />
             <AchievementCard Icon={<FaPeopleLine className='text-white text-4xl' />} numbers={2000} title={'Satisfied Clients'} />

@@ -37,7 +37,7 @@ const FAQ = () => {
     ]
 
     return (
-        <div className='w-full h-[135vh] bg-gray-200 p-10  mt-5' id='faq'>
+        <div className='w-full bg-gray-200 p-10  mt-5' id='faq'>
             <h1 className='text-indigo-700 text-center my-3 font-semibold'>FAQ</h1>
             <h1 className='text-gray-700 font-black lg:text-5xl sm:text-lg text-center'>Frequently Asked</h1>
             <div className='lg:flex sm:block justify-center items-center'>

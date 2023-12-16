@@ -8,6 +8,8 @@ import Services from './components/Services/Services';
 import PricingSection from './components/Pricing/PricingSection';
 import FAQ from './components/FAQSection/FAQ';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Example from './components/Example';
 
 function App() {
 
@@ -23,7 +25,9 @@ function App() {
       <PricingSection />
       <FAQ />
       <Contact />
-
+      <Footer />
+      
+    {/* <Example/> */}
 
 
     </div>

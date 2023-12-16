@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div id='about' className='p-10 w-full lg:flex lg:justify-center sm:block'>
 
-            <img src={Image} className='lg:w-[500px] h-[130vh] sm:w-full rounded-br-[35px] rounded-tr-[35px] rounded-bl-[35px] ' />
+            <img src={Image} className='lg:w-[500px] my-3 sm:w-full rounded-br-[35px] rounded-tr-[35px] rounded-bl-[35px] ' />
 
             <div className='lg:w-1/2 sm:w-full lg:my-3 sm:my-12  ms-7'>
                 <h1 className='text-violet-800 my-3 font-bold h1'>WHY CHOOSE US</h1>

@@ -11,15 +11,15 @@ const FAQCard = ({ question, answer }) => {
     };
 
     return (
-        <div className='my-3 flex flex-col flex-wrap overflow-auto shadow-lg '>
-            <div className='question-bar h-12 flex justify-between items-center p-2 bg-gray-100 shadow-md' onClick={toggleAnswerVisible}>
-                <h1 className='lg:font-semibold sm:font-normal sm:text-sm lg:text-lg m-1'>{question}</h1>
+        <div className='my-3 flex flex-col flex-wrap shadow-lg '>
+            <div className='question-bar flex justify-between items-center p-2 z-10 bg-gray-100 shadow-md rounded-md' onClick={toggleAnswerVisible}>
+                <h1 className='lg:font-semibold sm:font-normal sm:text-sm lg:text-md m-1 '>{question}</h1>
                 {
                     (isAnswerAppear) ? <IoIosArrowUp /> : <IoIosArrowDown />
                 }
             </div>
             {isAnswerAppear && (
-                <div className="answer p-2 bg-white">
+                <div className="answer p-2 mt-[-5px] rounded-sm bg-white">
                     <p>{answer}</p>
                 </div>
             )}
